@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #4e4e4e;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.nav-list {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  text-align: center;
+}
+
+.nav-first {
+  display: flex;
+  padding-left: 94px;
+}
+
+.nav-item {
+  display: flex;
+  padding-left: 46px;
+}
+
+.nav-item-one {
+  cursor: none;
+  margin-left: 46px;
+}
+
+.redirect-btn-one {
+  text-decoration: none;
+  margin-left: 500px;
+}
+
+.redirect-btn-one:visited {
+  color: #f1f1f1;
+}
+
+.redirect-btn-two {
+  text-decoration: none;
+}
+
+.redirect-btn-two {
+  color: #f1f1f1;
+}
+
+/* second section */
+
+.container {
+  width: 100%;
+  height: 574px;
+  background-image: url(background\ img.png);
+  margin: 0 auto;
+}
+.inside-container {
+  width: 577px;
+  height: 215px;
+
+  padding-top: 178px;
+}
+.first {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.second {
+  padding-top: 62.19px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.rectangle {
+  width: 164px;
+  padding: 10px 5px;
+  border: 3px solid #ffffff;
+  display: flex;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40.47px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  transition: background-color 1s, color 1s;
+  text-decoration: none;
+}
+
+.rectangle:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.redirect-offer {
+  text-decoration: none;
+}
+
+.redirect-offer:visited {
+  color: #ffffff;
+}
+
+/* third section */
+
+.about {
+  padding: 50px 0;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.third {
+  width: 386px;
+  height: 35px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 78px;
+  margin-left: 94px;
+}
+
+.container-uno {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.first-circle {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-image: url(add.jpg);
+  margin-right: 50px;
+
+  flex: 0 0 auto;
+}
+
+.full-name {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.under-first {
+  display: flex;
+  flex-direction: column;
+  height: 197px;
+  justify-content: center;
+  margin-right: 94px;
+}
+
+.first-name {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.container-dos {
+  display: flex;
+}
+
+.under-second {
+  text-align: right;
+  flex-direction: column;
+  height: 197px;
+  justify-content: center;
+  display: flex;
+  margin-left: 94px;
+}
+
+.second-name {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.second-circle {
+  width: 199px;
+  height: 199px;
+  border-radius: 50%;
+  background-image: url(add.jpg);
+  flex: 0 0 auto;
+  margin-left: 50px;
+}
+
+/* fourth-section */
+
+.offer {
+  width: 100%;
+  height: 689px;
+  margin: 0 auto;
+  background-color: steelblue;
+}
+
+.question {
+  width: 501px;
+  height: 42px;
+  padding-top: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.idk-why {
+  margin-top: 81.67px;
+}
+
+.third-circle {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #e07a64;
+  position: absolute;
+  margin-top: 18px;
+  margin-right: 710px;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 197px;
+  height: 197px;
+  background-color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  box-shadow: 5px 5px 10px rgba(78, 78, 78, 1);
+}
+
+.square:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+
+/* fifth section  */
+
+.footer {
+  width: 100%;
+  height: 71px;
+  background-color: #4e4e4e;
+}
+
+.end-credits {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 25px;
+  margin-left: 94px;
+  display: flex;
+  position: absolute;
+}
+
+.insta {
+  display: inline-block;
+  padding-top: 24px;
+  margin-left: 1600px;
+}
+
+.fb {
+  padding-left: 18px;
+}
