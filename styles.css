@@ -37,7 +37,6 @@ body {
 
 .nav-first {
   display: flex;
-  padding-left: 94px;
 }
 
 .nav-item {
@@ -48,6 +47,7 @@ body {
 .nav-item-one {
   cursor: none;
   margin-left: 46px;
+  margin-right: 0%;
 }
 
 .redirect-btn-one {
@@ -71,16 +71,23 @@ body {
 
 .container {
   width: 100%;
-  height: 574px;
+  height: calc(100vh - 50px);
   background-image: url(background\ img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .inside-container {
   width: 577px;
-  height: 215px;
-
-  padding-top: 178px;
 }
+
 .first {
   font-size: 36px;
   font-weight: 700;
@@ -232,9 +239,6 @@ body {
   width: 22px;
   border-radius: 50%;
   background-color: #e07a64;
-  position: absolute;
-  margin-top: 18px;
-  margin-right: 710px;
 }
 
 .offers {
@@ -250,16 +254,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-align: center;
   font-weight: 400;
   font-size: 24px;
   box-shadow: 5px 5px 10px rgba(78, 78, 78, 1);
+  transition: 0.5s;
 }
 
 .square:hover {
   scale: 1.05;
-  transition: 0.5s;
 }
 
 /* fifth section  */
