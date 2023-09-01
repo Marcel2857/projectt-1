@@ -234,16 +234,21 @@ body {
   margin-top: 81.67px;
 }
 
-.third-circle {
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
-  background-color: #e07a64;
-}
-
 .offers {
   display: flex;
   justify-content: center;
+}
+
+.third-circle {
+  width: 22px;
+  height: 22px;
+  background-color: #e07a64;
+  border-radius: 50%;
+  position: absolute;
+  top: -11px;
+  left: -11px;
+  z-index: 2;
+  transition: transform 0.5s;
 }
 
 .square {
@@ -258,14 +263,26 @@ body {
   font-weight: 400;
   font-size: 24px;
   box-shadow: 5px 5px 10px rgba(78, 78, 78, 1);
-  transition: 0.5s;
+  z-index: 1;
+  transition: transform 0.5s;
+  position: relative;
 }
 
 .square:hover {
-  scale: 1.05;
+  transform: scale(1.05);
+}
+
+.square:hover .third-circle {
+  transform: scale(1);
 }
 
 /* fifth section  */
+
+.fa-2x {
+  margin-right: 20px;
+  padding-top: 18px;
+  display: flex;
+}
 
 .footer {
   width: 100%;
@@ -273,22 +290,15 @@ body {
   background-color: #4e4e4e;
 }
 
+.fa-instagram {
+  margin-left: 800px;
+}
+
 .end-credits {
   font-size: 18px;
   font-weight: 700;
   color: #ffffff;
   padding-top: 25px;
-  margin-left: 94px;
   display: flex;
   position: absolute;
-}
-
-.insta {
-  display: inline-block;
-  padding-top: 24px;
-  margin-left: 1600px;
-}
-
-.fb {
-  padding-left: 18px;
 }
