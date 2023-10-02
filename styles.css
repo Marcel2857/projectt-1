@@ -3,6 +3,10 @@
   src: url(fonts/Roboto-Regular.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,61 +14,33 @@ html {
 body {
   font-family: "Roboto";
 }
+
 .header {
   width: 100%;
   height: 50px;
   background-color: #4e4e4e;
   margin: 0 auto;
-}
-
-.nav-wrapper {
   display: flex;
-}
-
-.nav {
-  display: flex;
-  color: #f1f1f1;
-  font-weight: 400;
-  font-size: 18px;
+  align-items: center;
 }
 
 .nav-list {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #f1f1f1;
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 11px;
-  text-align: center;
 }
 
 .nav-first {
-  display: flex;
+  margin-right: auto;
+}
+.redirect-button-one {
 }
 
-.nav-item {
-  display: flex;
-  padding-left: 46px;
+.redirect-button-two {
 }
 
 .nav-item-one {
-  cursor: none;
-  margin-left: 46px;
-  margin-right: 0%;
-}
-
-.redirect-btn-one {
-  text-decoration: none;
-  margin-left: 500px;
-}
-
-.redirect-btn-one:visited {
-  color: #f1f1f1;
-}
-
-.redirect-btn-two {
-  text-decoration: none;
-}
-
-.redirect-btn-two {
-  color: #f1f1f1;
 }
 
 /* second section */
@@ -108,7 +84,7 @@ body {
   background: transparent;
   justify-content: center;
   align-items: center;
-  margin-top: 40.47px;
+  margin-top: 62.19px;
   text-align: center;
   color: #ffffff;
   font-size: 18px;
@@ -147,7 +123,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 78px;
-  margin-left: 94px;
 }
 
 .container-uno {
@@ -159,7 +134,8 @@ body {
   width: 197px;
   height: 197px;
   border-radius: 50%;
-  background-image: url(add.jpg);
+  background-image: url(add.jpeg);
+
   margin-right: 50px;
 
   flex: 0 0 auto;
@@ -206,7 +182,7 @@ body {
   width: 199px;
   height: 199px;
   border-radius: 50%;
-  background-image: url(add.jpg);
+  background-image: url(add.jpeg);
   flex: 0 0 auto;
   margin-left: 50px;
 }
@@ -278,27 +254,19 @@ body {
 
 /* fifth section  */
 
-.fa-2x {
-  margin-right: 20px;
-  padding-top: 18px;
-  display: flex;
-}
-
 .footer {
   width: 100%;
   height: 71px;
   background-color: #4e4e4e;
-}
-
-.fa-instagram {
-  margin-left: 800px;
+  display: flex;
+  align-items: center;
 }
 
 .end-credits {
-  font-size: 18px;
-  font-weight: 700;
-  color: #ffffff;
-  padding-top: 25px;
-  display: flex;
-  position: absolute;
+  margin-right: 0 auto;
+}
+
+.fa-2x {
+  justify-content: flex-end;
+  margin-left: 30px;
 }

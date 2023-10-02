@@ -13,25 +13,19 @@
   </head>
   <body>
     <header class="header">
-      <div class="main-container">
-        <div class="nav-wrapper">
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-first">moja firma</li>
-
-              <a href="#third" class="redirect-btn-one">o nas</a>
-
-              <li class="nav-item">
-                <a href="#offer" class="redirect-btn-two">oferta</a>
-              </li>
-              <li class="nav-item-one">kontakt</li>
-            </ul>
-          </nav>
-        </div>
+      <div class="main-container nav-wrapper">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-first">moja firma</li>
+            <li href="#third" class="redirect-btn-one">o nas</li>
+            <li href="#offer" class="redirect-btn-two">oferta</li>
+            <li class="nav-item-one">kontakt</li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <div class="container">
+    <section class="container">
       <div class="main-container header-container">
         <div class="inside-container">
           <h1 class="first">Nasza firma oferuje najwyższej jakości produkty</h1>
@@ -40,11 +34,11 @@
           <a href="#offer" class="rectangle">oferta</a>
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="about" id="third">
       <div class="main-container">
-        <h1 class="third">Nasi specjaliści</h1>
+        <h2 class="third">Nasi specjaliści</h2>
         <div class="container-uno">
           <div class="first-circle"></div>
           <div class="under-first">
@@ -72,7 +66,7 @@
       </div>
     </section>
 
-    <div class="offer" id="offer">
+    <section class="offer" id="offer">
       <div class="main-container">
         <h1 class="question">Czym zajmuje się nasza firma?</h1>
         <div class="idk-why">
@@ -91,16 +85,20 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <footer class="footer">
       <div class="main-container">
-        <h1 class="end-credits">
+        <h2 class="end-credits">
           Nazwa firmy - wszelkie prawa zastrzeżone, 2019
-        </h1>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          ><i class="fab fa-instagram fa-2x" style="color: #ffffff"></i>
-        </a>
-        <i class="fab fa-facebook fa-2x" style="color: #ffffff"></i>
+        </h2>
+        <div class="icons">
+          <i
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            class="fab fa-instagram fa-2x"
+            style="color: #ffffff"
+          ></i>
+          <i class="fab fa-facebook fa-2x" style="color: #ffffff"></i>
+        </div>
       </div>
     </footer>
   </body>
